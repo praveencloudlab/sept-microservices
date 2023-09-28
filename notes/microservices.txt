@@ -1,0 +1,74 @@
+1.Spring boot 3x
+	-> core
+	-> data
+		-> data jpa: ORM => MYSQL
+	-> web
+		-> rest api
+
+2. ORM products
+	-> Hibernate
+	-> Jpa
+	-> mybatics
+
+3. JDK 17
+===================================
+
+
+Microservices
+=====================
+
+Software
+=============================
+1.Eclipse IDE / ItelliJ / STS
+2.MySQL8 database
+3.Rabbit MQ / Apache Kafka
+4.Postman
+5.Maven/Gradle
+
+==============================
+
+TOC
+======
+-> Intro to Microservices
+-> MS communications
+		-> Rabbit MQ
+		-> Kafka
+-> Globalizing the configuration
+-> cloud microservices
+	-> config server
+	-> config client
+	-> clod bus
+	-> feign service
+	-> routers
+	-> api gateways
+	-> eureka service discovery
+	-> fallback operations
+		circuitBreaker (Hsytrix vs Resiliency4j)
+
+	-> Distrubuted Logging
+=================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

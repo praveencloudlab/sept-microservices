@@ -1,0 +1,15 @@
+start zoo keeper:
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+start Kafka server:
+bin\windows\kafka-server-start.bat config\server.properties
+
+create topic:(JDK must be 17 and above )
+bin\windows\kafka-topics.bat --create --topic my-topic --bootstrap-server localhost:9092
+
+Write data intro topics using kafka producer:
+bin\windows\kafka-console-producer.bat --topic my-topic --bootstrap-server localhost:9092
+
+Read topic data using kafka consumer
+bin\windows\kafka-console-consumer.bat --topic my-topic --from-beginning -bootstrap-server localhost:9092
+
